@@ -1,5 +1,6 @@
 img {
   width: 100%;
+  border-radius: 50%;
 }
 
 .page {
@@ -182,7 +183,8 @@ img {
 
 /* sidebar section */
 .sidebar-section {
-  background-color: #1e2939;
+  /* background-color: #1e2939; */
+  background-color: #546a49;
   width: 370px;
   padding: 40px 0;
 }
