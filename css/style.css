@@ -1,3 +1,7 @@
+img {
+  width: 100%;
+}
+
 .page {
   display: flex;
   flex-direction: column;
@@ -185,7 +189,8 @@
 
 .contact-section,
 .tech-skills-section,
-.soft-skill-section {
+.soft-skill-section,
+.language-skill-section {
   margin: 0px 0 0 40px;
 }
 .sidebar-title {
@@ -210,7 +215,7 @@
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  color: #565e6a;
+  color: #cfd3da;
 }
 
 /* skill section */
