@@ -31,32 +31,6 @@ img {
   padding: 100px 90px;
 }
 
-/*button setting*/
-
-.theme-button {
-  position: relative;
-  padding-bottom: 4px;
-  font-size: 16px;
-  border-radius: 2px;
-  background-color: transparent;
-  cursor: pointer;
-  color: #1e2939;
-  border: 0;
-}
-
-.theme-button:active {
-  opacity: 0.8;
-}
-
-.theme-button:focus,
-.theme-button:hover {
-  color: #ffffff;
-  background-color: #1e2939;
-}
-.theme-button:focus {
-  outline-color: #1e2939;
-}
-
 /* about me section */
 
 .about-me-section {
@@ -83,7 +57,7 @@ img {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  color: #595959;
+  color: black;
 }
 
 /* my project sections */
@@ -102,6 +76,7 @@ img {
 }
 .my-projects-list {
   padding: 0 0 0 18px;
+  margin: 0;
 }
 
 .my-projects-link {
@@ -109,7 +84,7 @@ img {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  color: #595959;
+  color: black;
 }
 
 .my-projects-text {
@@ -117,21 +92,30 @@ img {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  color: #595959;
+  color: black;
   margin-left: 5px;
 }
 .my-projects-item {
   color: #000;
   font-weight: bold;
+  list-style: circle;
+  padding-left: 10px;
+  padding-bottom: 15px;
 }
-.my-projects-bracket {
+/* .my-projects-bracket {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 24px;
   color: black;
+} */
+.my-projects-item-description {
+  margin: 0;
 }
 
+.description-text {
+  font-weight: normal;
+}
 /* my work expirience */
 
 .my-education-university,
@@ -155,7 +139,7 @@ img {
   font-weight: normal;
   font-size: 12px;
   line-height: 15px;
-  color: #a8a8a8;
+  color: #1d1b1b;
   margin-bottom: 10px;
 }
 .my-work-expirience-devider {
@@ -169,7 +153,7 @@ img {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  color: #595959;
+  color: black;
 }
 .my-work-expirience-company-block {
   margin: 0 15px 0 0;
@@ -219,6 +203,9 @@ img {
   line-height: 24px;
   color: #cfd3da;
 }
+.social-link {
+  margin-top: 15px;
+}
 
 /* skill section */
 .skill-section {
@@ -233,45 +220,4 @@ img {
   font-size: 14px;
   line-height: 24px;
   color: #fff;
-}
-
-/* dark theme */
-
-.dark-theme {
-  color: #f2f2f2;
-  background-color: #17161a;
-}
-
-.dark-theme .theme-button {
-  color: #fff;
-}
-
-.dark-theme .theme-button:focus,
-.dark-theme .theme-button:hover {
-  color: #17161a;
-  background-color: #333333;
-}
-
-.dark-theme .main-container {
-  background-color: black;
-}
-
-.dark-theme .about-me-profession {
-  color: #ffffff;
-}
-
-.dark-theme .main-content-title {
-  color: #ffffff;
-}
-
-.dark-theme .my-projects-item {
-  color: #fff;
-}
-
-.dark-theme .my-projects-bracket {
-  color: #fff;
-}
-
-.dark-theme .sidebar-section {
-  background-color: rgb(32, 32, 32);
 }
