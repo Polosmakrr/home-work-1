@@ -101,6 +101,7 @@ img {
   list-style: circle;
   padding-left: 10px;
   padding-bottom: 15px;
+  width: 85%;
 }
 /* .my-projects-bracket {
   font-style: normal;
@@ -146,6 +147,7 @@ img {
   color: black;
 }
 .my-work-expirience-duties {
+  width: 85%;
   padding: 0 0 0 18px;
 }
 .my-work-expirience-duty {
@@ -169,7 +171,7 @@ img {
 .sidebar-section {
   /* background-color: #1e2939; */
   background-color: #546a49;
-  width: 370px;
+  /* width: 370px; */
   padding: 40px 0;
 }
 
