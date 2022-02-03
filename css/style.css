@@ -42,13 +42,15 @@ img {
   font-size: 14px;
   line-height: 17px;
   color: #000;
-  margin-bottom: 20px;
+  margin: 0;
+  margin-bottom: 25px;
 }
 .My-Name {
   font-style: normal;
   font-weight: bold;
   font-size: 45px;
   line-height: 55px;
+  margin: 0;
   margin-bottom: 25px;
 }
 .about-me-description {
@@ -58,12 +60,13 @@ img {
   font-size: 14px;
   line-height: 24px;
   color: black;
+  margin: 0;
 }
 
 /* my project sections */
 
 .my-projects-section {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 .main-content-title {
@@ -72,7 +75,8 @@ img {
   font-size: 22px;
   line-height: 27px;
   color: #000;
-  margin-bottom: 10px;
+  margin: 0;
+  margin-bottom: 25px;
 }
 .my-projects-list {
   padding: 0 0 0 18px;
@@ -112,12 +116,15 @@ img {
 } */
 .my-projects-item-description {
   margin: 0;
-}
-
-.description-text {
   font-weight: normal;
 }
+
 /* my work expirience */
+
+.my-work-experience-section {
+  margin: 0;
+  margin-bottom: 40px;
+}
 
 .my-education-university,
 .my-work-expirience-company {
@@ -133,6 +140,7 @@ img {
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
+  margin: 0;
   margin-bottom: 10px;
 }
 .my-work-expirience-time {
@@ -141,6 +149,7 @@ img {
   font-size: 12px;
   line-height: 15px;
   color: #1d1b1b;
+  margin: 0;
   margin-bottom: 10px;
 }
 .my-work-expirience-devider {
@@ -148,6 +157,7 @@ img {
 }
 .my-work-expirience-duties {
   width: 85%;
+  margin: 0;
   padding: 0 0 0 18px;
 }
 .my-work-expirience-duty {
@@ -158,13 +168,25 @@ img {
   color: black;
 }
 .my-work-expirience-company-block {
-  margin: 0 15px 0 0;
+  margin: 0 0 15px 0;
 }
+
+.my-education-sections {
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.my-education-university {
+  margin: 0;
+  margin-bottom: 25px;
+}
+
 .my-education-speciality {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 17px;
+  margin: 0;
 }
 
 /* sidebar section */
@@ -205,9 +227,8 @@ img {
   line-height: 24px;
   color: #cfd3da;
 }
-.social-link {
-  margin-top: 15px;
-}
+/* .social-link {
+} */
 
 /* skill section */
 .skill-section {
