@@ -27,7 +27,10 @@ img {
 /* main content section */
 
 .main-content-section {
-  padding: 100px 90px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 90px;
+  padding-top: 60px;
 }
 
 /* about me section */
