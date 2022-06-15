@@ -56,11 +56,12 @@ img {
   margin-bottom: 25px;
 }
 .about-me-description {
-  width: 400px;
+  width: 700px;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
+  text-align: justify;
   color: black;
   margin: 0;
 }
@@ -196,7 +197,9 @@ img {
   /* background-color: #1e2939; */
   background-color: #546a49;
   /* width: 370px; */
-  padding: 40px 0;
+  padding-top: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .contact-section,
